@@ -1,0 +1,57 @@
+/* 01 Properti Border */
+order : [ukuran] [jenis] [warna]
+/* Mengatur border pada elemen div dengan id "contoh" */
+#contoh {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }
+
+
+
+/* 02 Jenis Border */
+/* Mengatur border dengan jenis dashed */
+#contoh {
+    border-style: dashed;
+  }
+
+
+
+
+/* 03 Ukuran Border */
+/* Mengatur border dengan ukuran 2 piksel */
+#contoh {
+    border-width: 2px;
+  }
+
+
+
+
+/* 04 Warna Border */
+/* Mengatur border dengan warna hitam */
+#contoh {
+    border-color: black;
+  }
+  /* <!DOCTYPE html>
+  <html>
+     <head>
+        <style>
+           body {
+           background-color:#E7E9EB;
+           }
+           #myDIV {
+           width:100%;
+           height:300px;
+           background-color:#FFFFFF;
+           border:5px solid;
+           border-style: dashed;
+           }
+        </style>
+     </head>
+     <body>
+        <h1>The border-style Property</h1>
+        <div id="myDIV">
+           A demonstration on how to set the border style.
+        </div>
+     </body>
+  </html> */
