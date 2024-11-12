@@ -6,6 +6,22 @@ div {
 	margin-bottom: 40px:
 }
 
+/* <!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         p.ex1 {
+         margin: 35px;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>The margin Property</h1>
+      <p>A paragraph with no specified margins.</p>
+      <p class="ex1">This paragraph has a margin of 35 pixels on all four sides.</p>
+      <p>A paragraph with no specified margins.</p>
+   </body> */
+
 
 
 
@@ -26,6 +42,24 @@ div {
   }
 
 
+  /* <!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         p.ex1 {
+         margin: 35px 70px 50px 90px;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>The margin Property</h1>
+      <p>A paragraph with no specified margins.</p>
+      <p class="ex1">This paragraph has a 35 pixels margin for top, a 70 pixels margin for right, a 50 pixels margin for bottom, and a 90 pixels margin for left.</p>
+      <p>A paragraph with no specified margins.</p>
+   </body>
+</html> */
+
+
   
 
 /* Menggunakan sebuah propreti margin auto untuk mengatur secara otomatis, 
@@ -35,3 +69,38 @@ div {
 div {
     margin: 0 auto;
     }
+
+
+    /* <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Margin Auto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang!</h1>
+        <p>Ini adalah contoh penggunaan margin: 0 auto; untuk menengahakan elemen.</p>
+    </div>
+</body>
+</html> */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.box {
+  background-color: #fff; /* Warna latar belakang */
+  border: 1px solid #ccc; /* Border untuk kotak */
+  
+  /* Set padding yang berbeda untuk setiap sisi */
+  padding-top: 10px;    /* Atas */
+  padding-right: 20px;  /* Kanan */
+  padding-bottom: 30px; /* Bawah */
+  padding-left: 40px;   /* Kiri */
+}
